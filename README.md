@@ -1,2 +1,2 @@
 # Sigma-Web-Development
- A Simga Web Development path
+ A Simga Web Development journey
