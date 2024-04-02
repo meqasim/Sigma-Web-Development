@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selector</title>
+    <style>
+        /* selector */
+        .red {
+            background-color: red;
+        }
+
+        /* child selector */
+        div > p {
+            color: green;
+            background-color: black;
+        }
+
+        /* descendent selector */
+        div p {
+            background-color: palevioletred;
+        }
+
+        /* repeated child selector */
+        /* Browser foloow your code line by line  */
+        div > p {
+            color: green;
+            background-color: black;
+        }
+
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* psuedo selector */
+        a:link{
+            background-color: red;
+        }
+        a:hover{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        this is first div
+    </div>
+    <div class="red">
+        this is second selector and with class selector
+    </div>
+    <div>
+        third div
+        <p>this is para inside div</p>
+    <div/>
+    <div>
+        <article>
+            <p>this is para and it is decendent selector</p>
+        </article>
+    </div>
+    <a href="http://www.google.com">got to Google</a>
+    <a href="http://www.shahins.com">go to shahins</a>
+
+</body>
+</html>
