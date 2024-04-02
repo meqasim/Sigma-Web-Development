@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Variables</title>
     <style>
+        :root {
+            --color: purple;
+            --seccolor : rgb(240, 137, 240);
+        }
         *{
             margin: 0;
             padding: 0;
         }
         .nav {
-            background-color: aqua;
+            background-color: var(--color);
         }
         ul{
             display: flex;
@@ -20,7 +24,7 @@
             padding: 20px;
         }
         .container {
-            background-color: aquamarine;
+            background-color: var(--seccolor);
         }
     </style>
 </head>
