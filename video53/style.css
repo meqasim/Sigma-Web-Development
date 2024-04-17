@@ -1,19 +1,23 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-.main{
+body {
+    background-color: black;
+}
+
+.main {
     background-image: url(assets/images/bg.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: max(1200px, 100vw);
-    height: 80vh;
-    position:relative;
+    height: 110vh;
+    position: relative;
 }
 
-.main .box{
-    height: 80vh;
+.main .box {
+    height: 110vh;
     width: 100%;
     opacity: 0.44;
     background-color: black;
@@ -21,7 +25,7 @@
     top: 0;
 }
 
-nav{
+nav {
     display: flex;
     align-items: center;
     width: 60vw;
@@ -31,19 +35,23 @@ nav{
 
 }
 
-nav img{
+nav img {
     color: red;
     height: 114px;
     position: relative;
     z-index: 10;
 }
 
-nav button{
+nav button {
     position: relative;
     z-index: 10;
+    background-color: red;
+    color: white;
+    padding: 7px;
 }
 
-.hero{
+.hero {
+    height: 100%;
     position: relative;
     z-index: 10;
     color: white;
@@ -51,4 +59,56 @@ nav button{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 18px;
+}
+
+.fontone {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.fonttwo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.fontthree {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.getline {
+    background-color: rgb(83, 83, 83);
+    width: 100%;
+    height: 7px;
+}
+
+.btn {}
+
+btnred {
+    color: white;
+    background-color: red;
+}
+
+secone {
+    height: 100vh;
+    width: 100%;
+}
+
+seconein {
+    display: flex;
+    flex-direction: column;
+}
+
+seconeimg img {
+    height: 10px;
 }
